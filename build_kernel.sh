@@ -1,6 +1,6 @@
 #!/bin/bash
 # Copy the defconfig
-cp -f kernelsu-defconfig/x1q_kor_singlew_defconfig arch/arm64/configs/vendor/x1q_kor_singlew_defconfig
+cp -f kernelsu-defconfig/x1q_kor_singlex_defconfig arch/arm64/configs/vendor/x1q_kor_singlex_defconfig
 # Copy the patches
 cp -rf kernelsu-patches/. .
 # Add KernelSU Next legaxy branch
