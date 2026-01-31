@@ -7,7 +7,7 @@ This kernel was built for the `SM-G981N` (Korean variant), with firmware `G981NK
 
 # How to install
 
-Flash the latest `x1q_ksunext.zip` from the release page with TWRP.
+Flash the latest `x1q_ksunext.zip` from the release page with TWRP or from the KernelSU Manager app.
 
 # How to build
 This repo was tested on Ubuntu 22.04 LTS (Jammy Jellyfish).
