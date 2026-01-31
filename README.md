@@ -1,9 +1,9 @@
 # x1q-kernelsu-next
-KernelSU Next integration for the Samsung Galaxy S20 Snapdragon variant (x1q) 
+KernelSU Next integration for the Samsung Galaxy S20 Snapdragon variant (x1q).
 
 This kernel was built for the `SM-G981N` (Korean variant), with firmware `G981NKSS8IYC2`.
 
-<img src="https://i.imgur.com/O4wGqMo.jpeg" width="300" />
+<img src="https://i.imgur.com/LJWzWd3.jpeg" width="300" />
 
 # How to install
 
