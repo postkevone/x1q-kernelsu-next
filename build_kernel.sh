@@ -13,6 +13,9 @@ curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/ke
 echo "Patching KernelSU compat header to use standard strscpy..."
 sed -i 's/return strscpy_pad(dest, src, count);/return strscpy(dest, src, count);/g' drivers/kernelsu/compat/kernel_compat.h
 
+echo "Patching KernelSU allowlist to use compat __strscpy_pad..."
+sed -i 's/strscpy_pad(domain/__strscpy_pad(domain/g' drivers/kernelsu/policy/allowlist.c
+
 export ARCH=arm64
 # Added -p so the script doesn't throw an error if the directory already exists on rebuilds
 mkdir -p out
